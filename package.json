@@ -1,10 +1,9 @@
 {
   "name": "pastebin-lite",
   "version": "1.0.0",
-  "description": "Minimal Pastebin-like service using Node.js, Express, MongoDB (Atlas)",
-  "main": "server.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node api/index.js",
     "dev": "nodemon server.js"
   },
   "dependencies": {
